@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="../img/maGlass.png" type="image.png">
+    <title>Github profile finder</title>
+</head>
+<body>
+<main>
+    <h2>Github profile finder</h2><br>
+    <header class="searchHeader">
+        <label for="inputSearch" id="inSearchLabel">Username:</label>
+        <input type="text" id="inputSearch">
+        <!-- <input type="button" id="pesquisa" value="pesquisa"> -->
+    </header>
+    <h3>Saved Profiles: </h3> 
+    <div class="containerSavedProf">
+    </div>
+    <div class="user">
+        <img id="porfilePicture" width="150px" height="150px">
+        <div class="usernameContainer">
+            <label for="username">Username: </label>
+            <p id="username"></p>
+        </div>
+        <div class="moreInfo">
+            <label for="bio">Bio:</label>
+            <p id="bio"></p><br>
+            <label for="totalrepos">Total repositories: </label>
+            <p id="totalRepos"></p>
+            <label for="repos">Go to repositories: </label>
+            <p id="repos"></p>
+            <input type="button" id="saveUser" value="save user">
+        </div>
+    </div>
+</main>
+<script type="module" src="dist/index.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</body>
+</html>
